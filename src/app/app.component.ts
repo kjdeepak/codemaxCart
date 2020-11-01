@@ -8,14 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'codemaxCart';
-  products: any = [];
-  constructor(private http: HttpClient){
+
+  constructor(){
 
   }
-   ngOnInit(): void {
-    this.http.get('assets/data.json').subscribe(data => {
-      console.log(data);
-      this.products = data;
-    });
-     }
+   ngOnInit(): void { }
 }
