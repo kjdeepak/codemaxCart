@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { SideNavigationComponent } from './shared/components/side-navigation/side-navigation.component';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { TopNavigationComponent } from './shared/components/top-navigation/top-navigation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
     CompanyComponent,
     ContactComponent,
     HeaderComponent,
-    SideNavigationComponent
+    SideNavigationComponent,
+    TopNavigationComponent
   ],
   imports: [
     BrowserModule,

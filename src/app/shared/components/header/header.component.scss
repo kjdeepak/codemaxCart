@@ -1,3 +1,17 @@
-a {
-  color: inherit;
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #navBarSearchForm {
+    width: 330px !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #navBarSearchForm {
+    width: 430px !important;
+  }
 }

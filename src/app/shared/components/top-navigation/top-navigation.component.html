@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <button  style="outline: none;"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="isMenuCollapsed = !isMenuCollapsed">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item border-none" role="button" style="outline: none;" routerLink="/home"
+        routerLinkActive="text-white active">
+        <a (click)="isMenuCollapsed = true" class="nav-link">Home
+        </a>
+    </li>
+    <li class="nav-item border-none" role="button" style="outline: none;" routerLink="/product"
+        routerLinkActive="text-white active">
+        <a (click)="isMenuCollapsed = true" class="nav-link">Product
+        </a>
+    </li>
+    <li class="nav-item border-none" role="button" style="outline: none;" routerLink="/company"
+        routerLinkActive="text-white active">
+        <a (click)="isMenuCollapsed = true" class="nav-link">Company
+        </a>
+    </li>
+    <li class="nav-item border-none" role="button" style="outline: none;" routerLink="/contact"
+        routerLinkActive="text-white active">
+        <a (click)="isMenuCollapsed = true" class="nav-link">Contact
+        </a>
+    </li>
+      </ul>
+    </div>
+
+    <div class="text-white">
+        f
+    </div>
+  </nav>
