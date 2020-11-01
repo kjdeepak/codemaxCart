@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "name": "Headphone",
+        "description": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "imageUrl": "https://source.unsplash.com/PDX_a_82obo/330x190/",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "Wrist Watch",
+        "description": "Sint libero mollitia.",
+        "price": "302.00",
+        "imageUrl": "https://source.unsplash.com/2cFZ_FB08UM/330x190/",
+        "quantity": 1    },
+    {
+        "id": 3,
+        "name": "Running Shoes",
+        "description": "In consequuntur cupiditate et unde minus.",
+        "price": "279.00",
+        "imageUrl": "https://source.unsplash.com/164_6wVEHfI/330x190/",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "Fitness Shoes",
+        "description": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "imageUrl": "https://source.unsplash.com/LxVxPA1LOVM/330x190/",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "Poloroid Camera",
+        "description": "Sint libero mollitia.",
+        "price": "302.00",
+        "imageUrl": "https://source.unsplash.com/KsLPTsYaqIQ/330x190/",
+        "quantity": 1    },
+    {
+        "id": 6,
+        "name": "Coco Oil",
+        "description": "In consequuntur cupiditate et unde minus.",
+        "price": "279.00",
+        "imageUrl": "https://source.unsplash.com/6LBBOwkPzyQ/330x190/",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name": "Lipstick",
+        "description": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "imageUrl": "https://source.unsplash.com/E1rH__X9SA0/330x190/",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name": "Wayfarer",
+        "description": "Sint libero mollitia.",
+        "price": "302.00",
+        "imageUrl": "https://source.unsplash.com/K62u25Jk6vo/330x190/",
+        "quantity": 1    },
+    {
+        "id": 9,
+        "name": "Curology",
+        "description": "In consequuntur cupiditate et unde minus.",
+        "price": "279.00",
+        "imageUrl": "https://source.unsplash.com/j7pKVQrTUsM/330x190/",
+        "quantity": 1
+    }
+]

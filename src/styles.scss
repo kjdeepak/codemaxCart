@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+// Your variable overrides
+
+$theme-colors: (
+  "primary": #003378,
+  "secondary": #707070,
+  "warning": #fe9d2b,
+  "light-blue": #f9fcff,
+);
+
+// Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+// /* Importing Bootstrap SCSS file. */
+// @import '~bootstrap/scss/bootstrap';

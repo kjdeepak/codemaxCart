@@ -1,0 +1,13 @@
+<div>
+  <nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1"><b>Logoo</b>o</span>
+    <form class="form-inline">
+      <input class="form-control mr-2" id="navBarSearchForm" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-dark my-2 px-5 my-sm-0" type="submit">Search</button>
+    </form>
+    <div>
+      {{totalCartItems}} items / {{totalCartPrice | currency: 'EUR'}}
+    </div>
+  </nav>
+</div>
+<app-top-navigation></app-top-navigation>

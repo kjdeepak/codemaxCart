@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <h1 class="my-4">Contact Us</h1>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h5>Corporate Office Address</h5>
+            <hr />
+            <address>
+                <div>Codemax Cart Pvt. Ltd</div>
+                <div>Office No. 201, 202</div>
+                <div>Dummy Appartment</div>
+                <div>Goa, India (403706)</div>
+            </address>
+
+                <div>
+                    <h6>Phone</h6>
+                    <p>Support: +91 8888-777-666</p>
+                </div>
+                <div>
+                    <h6>Email Address</h6>
+                    <p>Office: office@dummy.com</p>
+                </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <form [formGroup]="contactForm" (ngSubmit)="onContactFormSubmit()">
+                <div class="form-group">
+                    <label for="emailId">Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="fullNameId" formControlName="fullName" [ngClass]="{ 'is-invalid': submitted && f.fullName.errors }">
+                    <div *ngIf="submitted && f.fullName.errors" class="invalid-feedback">
+                        <small *ngIf="f.fullName.errors.required" id="help-text">Name field is required.</small>
+                    </div>
+                  </div>
+                <div class="form-group">
+                <label for="emailId">Email Address <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="emailId" formControlName="emailId" required [ngClass]="{ 'is-invalid': submitted && f.emailId.errors }">
+                <div *ngIf="submitted && f.emailId.errors" class="invalid-feedback">
+                    <small *ngIf="f.emailId.errors.required" id="help-text">Email field is required.</small>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="commentId">Comment</label>
+                <textarea type="text" class="form-control" id="commentId" formControlName="comments" rows="5" style="resize: none;"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+              
+              </form>
+        </div>
+    </div>
+</div>
