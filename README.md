@@ -1,3 +1,10 @@
+## Task Solution Link!
+
+You can checkout the final deployed solution of this challenge on below link
+
+[https://friendly-minsky-5f8900.netlify.app/](https://friendly-minsky-5f8900.netlify.app/)
+
+
 # CodemaxCart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
