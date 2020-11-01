@@ -13,6 +13,7 @@ import { SideNavigationComponent } from './shared/components/side-navigation/sid
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { TopNavigationComponent } from './shared/components/top-navigation/top-navigation.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     AppRoutingModule,
     HttpClientModule,
     NgbCollapseModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
