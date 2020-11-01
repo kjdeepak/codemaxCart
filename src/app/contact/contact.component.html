@@ -35,6 +35,7 @@
                 <input type="email" class="form-control" id="emailId" formControlName="emailId" required [ngClass]="{ 'is-invalid': submitted && f.emailId.errors }">
                 <div *ngIf="submitted && f.emailId.errors" class="invalid-feedback">
                     <small *ngIf="f.emailId.errors.required" id="help-text">Email field is required.</small>
+                    <small *ngIf="f.emailId.errors.email" id="help-text">Invalid Email address.</small>
                 </div>
               </div>
               <div class="form-group">
