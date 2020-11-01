@@ -2,6 +2,9 @@
   font-size: 2.5rem;
 }
 
+.form-inline .form-control {
+  width: auto;
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   #navBarSearchForm {

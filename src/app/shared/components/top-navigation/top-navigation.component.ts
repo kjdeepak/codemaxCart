@@ -12,4 +12,8 @@ export class TopNavigationComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClickFacebookLogo(): void {
+    window.open('https://www.facebook.com/cdmx.in/', '_blank');
+  }
+
 }
