@@ -10,6 +10,7 @@ import { CompanyComponent } from './company/company.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { SideNavigationComponent } from './shared/components/side-navigation/side-navigation.component';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SideNavigationComponent } from './shared/components/side-navigation/sid
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbCollapseModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

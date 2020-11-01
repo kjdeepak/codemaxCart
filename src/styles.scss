@@ -15,5 +15,8 @@ a:focus,
 button:focus,
 input:focus,
 textarea:focus {
-  outline: none;
+  outline: none !important;
 }
+
+// /* Importing Bootstrap SCSS file. */
+// @import '~bootstrap/scss/bootstrap';
